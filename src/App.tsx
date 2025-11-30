@@ -15,12 +15,17 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/publish" element={<Publish />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/publish" element={<Publish />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <footer style={{ marginTop: "2rem", padding: "1rem", textAlign: "center", fontSize: "0.875rem", color: "#6b7280" }}>
+            © 2025 Made By Saurabh Kumar Jha. All rights reserved.
+          </footer>
+        </>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

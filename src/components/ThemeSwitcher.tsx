@@ -11,12 +11,14 @@ import {
 type Theme = "light" | "dark" | "sakura" | "forest" | "midnight";
 
 export const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("forest");
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("blog-theme") as Theme;
+    const savedTheme = localStorage.getItem("blog-theme") as Theme | null;
     if (savedTheme) {
       applyTheme(savedTheme);
+    } else {
+      applyTheme("forest");
     }
   }, []);
 

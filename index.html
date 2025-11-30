@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Editor Pro - Professional Markdown Blog Editor</title>
     <meta name="description" content="A professional-grade markdown blog editor with live preview, custom themes, auto-save, and export features. Perfect for writers and bloggers." />
-    <meta name="author" content="Lovable" />
+    <meta name="author" content="Saurabh Kumar Jha" />
 
-    <meta property="og:title" content="91df6860-fa86-4736-9873-6e48621daf51" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <!-- <meta property="og:title" content="91df6860-fa86-4736-9873-6e48621daf51" />
+    <meta property="og:description" content="Lovable Generated Project" /> -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- <meta property="og:image" content="" /> -->
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:site" content="@SaurabhKumarJha" />
+    <meta name="twitter:image" content="" />
+
+    <link rel="icon" href="/favico.ico" type="image/x-icon" />
+
+    <script>
+      (function () {
+        try {
+          var KEY = 'blog-theme';
+          var saved = localStorage.getItem(KEY);
+          var theme = saved || 'forest';
+          var root = document.documentElement;
+          root.classList.remove('light', 'dark', 'sakura', 'forest', 'midnight');
+          root.classList.add(theme);
+        } catch (e) {
+          // Fallback to forest if localStorage inaccessible
+          document.documentElement.classList.add('forest');
+        }
+      })();
+    </script>
   </head>
 
   <body>
