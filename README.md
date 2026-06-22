@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
+# BlogEditor
 
-## Project info
+A modern, feature-rich blog editor built with TypeScript and modern web technologies.
 
-**URL**: https://lovable.dev/projects/91df6860-fa86-4736-9873-6e48621daf51
+## 🌐 Live Demo
+Visit the application: [BlogEditor](https://blog-editor-lac.vercel.app)
 
-## How can I edit this code?
+## 📋 Overview
+BlogEditor is a powerful web-based editor designed for creating, editing, and managing blog content. With an intuitive user interface and comprehensive feature set, it enables seamless content creation and publication workflows.
 
-There are several ways of editing your application.
+## ✨ Features
+- **Rich Text Editing**: Full-featured editor for blog content
+- **TypeScript Support**: Built with TypeScript for type safety
+- **Modern UI/UX**: Clean and intuitive user interface
+- **Content Management**: Easy creation and organization of blog posts
+- **Responsive Design**: Works seamlessly on all devices
 
-**Use Lovable**
+## 🚀 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/91df6860-fa86-4736-9873-6e48621daf51) and start prompting.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/saurabhkumarjha05/BlogEditor.git
 
-**Use your preferred IDE**
+# Navigate to the project directory
+cd BlogEditor
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Install dependencies
+npm install
+# or
+yarn install
 ```
 
-**Edit a file directly in GitHub**
+### Running the Project
+```bash
+# Development server
+npm run dev
+# or
+yarn dev
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Build for production
+npm run build
+# or
+yarn build
+```
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
+```
+BlogEditor/
+├── src/              # Source code
+├── public/           # Static files
+├── package.json      # Project dependencies
+└── README.md         # This file
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Technology Stack
+- **Frontend**: TypeScript, React/Vue/Next.js
+- **Build Tool**: Vite/Webpack
+- **Hosting**: Vercel
 
-## What technologies are used for this project?
+## 👤 Author
+- **Saurabh K. Jha**
 
-This project is built with:
+## 📝 License
+This project is available for educational and personal use.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit issues and pull requests.
 
-## How can I deploy this project?
+## 📧 Support
+For support and questions, please create an issue in the repository.
 
-Simply open [Lovable](https://lovable.dev/projects/91df6860-fa86-4736-9873-6e48621daf51) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Last Updated**: 30 November 2025
